@@ -1,0 +1,17 @@
+# Xcode
+*.xcuserstate
+*.xcuserdatad
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/xcshareddata/
+*.xcworkspace/xcuserdata/
+*.xcworkspace/xcshareddata/
+
+# Build products
+build/
+DerivedData/
+*.ipa
+*.app
+
+# macOS
+.DS_Store

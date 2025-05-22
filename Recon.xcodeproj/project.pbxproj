@@ -6,13 +6,43 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		713CBC8B2DD1830100D57766 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713CBC8A2DD182FE00D57766 /* ContentView.swift */; };
+		713CBC902DD183D700D57766 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713CBC8F2DD183D400D57766 /* HomeView.swift */; };
+		713CBC932DD1841400D57766 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713CBC922DD1841000D57766 /* ResultView.swift */; };
+		713CBC952DD1842500D57766 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713CBC942DD1842200D57766 /* HistoryView.swift */; };
+		713CBC962DD1856B00D57766 /* RecognitionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713CBC8D2DD1836600D57766 /* RecognitionViewModel.swift */; };
+		713CBC972DD1857400D57766 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713CBC912DD183FC00D57766 /* ImagePicker.swift */; };
+		713CBC982DD1857900D57766 /* RecognitionRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713CBC8C2DD1832A00D57766 /* RecognitionRecord.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		713CBC702DD1803E00D57766 /* Recon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Recon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		713CBC8A2DD182FE00D57766 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		713CBC8C2DD1832A00D57766 /* RecognitionRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecognitionRecord.swift; sourceTree = "<group>"; };
+		713CBC8D2DD1836600D57766 /* RecognitionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecognitionViewModel.swift; sourceTree = "<group>"; };
+		713CBC8F2DD183D400D57766 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		713CBC912DD183FC00D57766 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		713CBC922DD1841000D57766 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		713CBC942DD1842200D57766 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		713CBC842DD1813500D57766 /* Exceptions for "Recon" folder in "Recon" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 713CBC6F2DD1803E00D57766 /* Recon */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		713CBC722DD1803E00D57766 /* Recon */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				713CBC842DD1813500D57766 /* Exceptions for "Recon" folder in "Recon" target */,
+			);
 			path = Recon;
 			sourceTree = "<group>";
 		};
@@ -32,8 +62,11 @@
 		713CBC672DD1803D00D57766 = {
 			isa = PBXGroup;
 			children = (
-				713CBC722DD1803E00D57766 /* Recon */,
+				713CBC872DD182AA00D57766 /* Utilites */,
+				713CBC862DD182A200D57766 /* Models */,
+				713CBC852DD1829600D57766 /* Views */,
 				713CBC712DD1803E00D57766 /* Products */,
+				713CBC722DD1803E00D57766 /* Recon */,
 			);
 			sourceTree = "<group>";
 		};
@@ -43,6 +76,34 @@
 				713CBC702DD1803E00D57766 /* Recon.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		713CBC852DD1829600D57766 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				713CBC942DD1842200D57766 /* HistoryView.swift */,
+				713CBC922DD1841000D57766 /* ResultView.swift */,
+				713CBC8F2DD183D400D57766 /* HomeView.swift */,
+				713CBC8A2DD182FE00D57766 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		713CBC862DD182A200D57766 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				713CBC8D2DD1836600D57766 /* RecognitionViewModel.swift */,
+				713CBC8C2DD1832A00D57766 /* RecognitionRecord.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		713CBC872DD182AA00D57766 /* Utilites */ = {
+			isa = PBXGroup;
+			children = (
+				713CBC912DD183FC00D57766 /* ImagePicker.swift */,
+			);
+			path = Utilites;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +180,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				713CBC982DD1857900D57766 /* RecognitionRecord.swift in Sources */,
+				713CBC962DD1856B00D57766 /* RecognitionViewModel.swift in Sources */,
+				713CBC952DD1842500D57766 /* HistoryView.swift in Sources */,
+				713CBC8B2DD1830100D57766 /* ContentView.swift in Sources */,
+				713CBC972DD1857400D57766 /* ImagePicker.swift in Sources */,
+				713CBC902DD183D700D57766 /* HomeView.swift in Sources */,
+				713CBC932DD1841400D57766 /* ResultView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +323,7 @@
 				DEVELOPMENT_TEAM = STG3D4974J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Recon/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -284,6 +353,7 @@
 				DEVELOPMENT_TEAM = STG3D4974J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Recon/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
