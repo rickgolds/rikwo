@@ -13,14 +13,14 @@ struct ResultView: View {
     
     var body: some View {
         VStack {
-            Text("Recognition Result")
+            Text("Wynik rozpoznania")
                 .font(.headline)
                 .padding()
             
             Text(result)
                 .padding()
             
-            Button("Close") {
+            Button("Zamknij") {
                 dismiss()
             }
             .buttonStyle(.bordered)
